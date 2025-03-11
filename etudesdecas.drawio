@@ -1,9 +1,34 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.0">
   <diagram name="Page-1" id="tRX58xD5bCdo7yRCEl5w">
-    <mxGraphModel>
+    <mxGraphModel dx="989" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="XP2jEXOqP4H2U9njvPuL-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XP2jEXOqP4H2U9njvPuL-1" target="XP2jEXOqP4H2U9njvPuL-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XP2jEXOqP4H2U9njvPuL-5" value="Appartient à" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XP2jEXOqP4H2U9njvPuL-4">
+          <mxGeometry x="-0.1111" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XP2jEXOqP4H2U9njvPuL-1" value="Ingrédient&lt;br&gt;id (PK)&lt;br&gt;nom&lt;br&gt;recette_id (FK)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XP2jEXOqP4H2U9njvPuL-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XP2jEXOqP4H2U9njvPuL-2" target="XP2jEXOqP4H2U9njvPuL-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XP2jEXOqP4H2U9njvPuL-7" value="Appartient à" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XP2jEXOqP4H2U9njvPuL-6">
+          <mxGeometry x="-0.0222" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XP2jEXOqP4H2U9njvPuL-2" value="Recette&lt;br&gt;id (PK)&lt;div&gt;titre&lt;/div&gt;&lt;div&gt;description&lt;/div&gt;&lt;div&gt;instructions&lt;/div&gt;&lt;div&gt;categorie_id (FK)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="390" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="XP2jEXOqP4H2U9njvPuL-3" value="Catégorie&lt;div&gt;id (PK)&lt;/div&gt;&lt;div&gt;nom&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
