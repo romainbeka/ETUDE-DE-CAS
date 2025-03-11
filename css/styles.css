@@ -25,6 +25,7 @@ button:hover{
     background-color: #eaeaea;
     display: flex;
     height: 100vh;
+    justify-content: center;
 }
 .categories{
     display: flex;
@@ -66,4 +67,21 @@ button:hover{
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+}
+.div {
+    text-align: left;
+}
+.div p {
+    color: white;
+}
+.div textarea {
+    resize: none;
+}
+#recette-form .btn {
+    background-color: transparent;
+}
+
+#recette-form .add_ingredients {
+    text-align: left;
+    
 }

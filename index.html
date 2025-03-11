@@ -40,20 +40,32 @@
         <section class="ajout-recette">
             <h2>Ajouter une Nouvelle Recette</h2>
             <form id="recette-form">
-                <input type="text" id="titre" placeholder="Titre de la recette" required>
-                <textarea id="description" placeholder="Description"></textarea>
-                <select id="categorie">
-                    <option>Entrée</option>
-                    <option>Plat principal</option>
-                    <option>Dessert</option>
-                    <option>Végétarien</option>
-                    <option>Sans Gluten</option>
-                </select>
-                <div id="ingredients">
-                    <input type="text" placeholder="Ingrédient">
+                <div class="div">
+                    <p>Titre de la recette</p>
+                    <input type="text" id="titre" placeholder="" required>
                 </div>
-                <button type="button" onclick="ajouterIngredient()">Ajouter un ingrédient</button>
-                <button type="submit">Ajouter la Recette</button>
+                <div class="div">
+                    <p>Description</p>
+                    <textarea id="description" placeholder=""></textarea>
+                </div>
+                <div class="div">
+                    <p>Catégories</p>
+                    <select id="categorie">
+                        <option>Entrée</option>
+                        <option>Plat principal</option>
+                        <option>Dessert</option>
+                        <option>Végétarien</option>
+                        <option>Sans Gluten</option>
+                    </select>
+                </div>
+                <div class="div">
+                    <p>Ingrédients</p>
+                    <div id="ingredients">
+                        <input type="text">
+                    </div>
+                </div>
+                <button type="button" onclick="ajouterIngredient()" class="add_ingredients">Ajouter un ingrédient</button>
+                <button type="submit" class="btn">Ajouter la Recette</button>
             </form>
         </section>
     </main>
