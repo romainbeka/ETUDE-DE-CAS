@@ -10,7 +10,7 @@ header {
     padding: 20px;
 }
 button {
-    background: orange;
+    background: #f9aa33;
     color: white;
     border-radius: 5px;
     cursor: pointer;
@@ -24,8 +24,9 @@ button:hover{
 .bg-blue {
     background-color: #eaeaea;
     display: flex;
-    height: 100vh;
+    flex-direction: row;
     justify-content: center;
+    padding-bottom: 20px;
 }
 .categories{
     display: flex;
@@ -42,7 +43,7 @@ button:hover{
 }
 #recette-list li span{
     margin-top: 20px;
-    color: orange;
+    color: #f9aa33;
 }
 .recette-item {
     cursor: pointer;
@@ -73,15 +74,80 @@ button:hover{
 }
 .div p {
     color: white;
+    width: min(100%, 50rem);
 }
 .div textarea {
-    resize: none;
+    width: min(100%, 50rem);
+    border-radius: 5px;
+    min-width: min(100%, 50rem);
+    max-width: min(100%, 50rem);
+    min-height: 100px;
+    max-height: 200px;
+}
+.div textarea:focus {
+    outline: none;
+}
+.div input {
+    position: relative;
+    outline: none;
+    width: min(100%, 50rem);
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+}
+.div input:focus {
+    outline: none;
+}
+#categorie {
+    width: auto;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+}
+#ingredients input {
+    padding: 5px;
+    border: none;
+}
+#ingredients input:focus {
+    outline: none;
 }
 #recette-form .btn {
     background-color: transparent;
+    box-shadow: none;
+}
+#recette-form .div {
+    width: max-content;
+}
+#recette-form .add_ingredients {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    box-shadow: none;
+}
+footer {
+    background-color: #344955;
+    padding: 50px;
 }
 
-#recette-form .add_ingredients {
-    text-align: left;
-    
+footer p {
+    color: white;
+}
+
+footer p span a {
+    text-decoration: none;
+    color: #f9aa33;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+    .bg-blue {
+        background-color: #eaeaea;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    .ajout-recette {
+        padding: 20px;
+    }
 }

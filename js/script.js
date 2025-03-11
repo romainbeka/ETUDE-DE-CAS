@@ -2,7 +2,7 @@ function ajouterIngredient() {
     const ingredientDiv = document.getElementById("ingredients");
     const input = document.createElement("input");
     input.type = "text";
-    input.placeholder = "Ingrédient";
+    input.placeholder = "";
     ingredientDiv.appendChild(input);
 }
 
