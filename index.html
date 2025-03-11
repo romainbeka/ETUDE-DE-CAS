@@ -13,12 +13,14 @@
         <p>Votre livre de recettes en ligne</p>
     </header>
     
-    <main>
+    <main class="bg-blue">
         <section class="categories">
             <h2>Catégories</h2>
             <button>Entrées</button>
             <button>Plats principaux</button>
             <button>Desserts</button>
+            <button>Végétarien</button>
+            <button>Sans Gluten</button>
         </section>
         
         <section class="recettes">
@@ -27,6 +29,9 @@
                 <li class="recette-item" onclick="toggleDetails(this)">Risotto aux champignons<span>Plat principal</span></li>
                 <div class="recette-details">Un risotto crémeux...</div>
                 
+                <li class="recette-item" onclick="toggleDetails(this)">Soupe de potimarron et châtaignes<span>Entrée</span></li>
+                <div class="recette-details">Une soupe veloutée...</div>
+
                 <li class="recette-item" onclick="toggleDetails(this)">Soupe de potimarron et châtaignes<span>Entrée</span></li>
                 <div class="recette-details">Une soupe veloutée...</div>
             </ul>
@@ -41,6 +46,8 @@
                     <option>Entrée</option>
                     <option>Plat principal</option>
                     <option>Dessert</option>
+                    <option>Végétarien</option>
+                    <option>Sans Gluten</option>
                 </select>
                 <div id="ingredients">
                     <input type="text" placeholder="Ingrédient">
